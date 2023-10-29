@@ -159,9 +159,9 @@ if __name__ == '__main__':
    while True:
      
      print("listening...")
-    #  query=takeCommand()
-     query=input("Enter the prompt:")
-    #  time.sleep(5)
+     query=takeCommand()
+     #query=input("Enter the prompt:")
+    
 
      
 
