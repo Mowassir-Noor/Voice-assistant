@@ -5,13 +5,13 @@ import win32com.client
 import webbrowser
 import datetime
 import AppOpener
-# from config import apikey
+
 import pyautogui as pag
 import time
 
 
 
-apikey="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"
+apikey="Your openai api key"
 
 speaker=win32com.client.Dispatch('SAPI.SpVoice')
 
