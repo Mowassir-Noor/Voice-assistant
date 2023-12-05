@@ -1,7 +1,7 @@
 # Voice-assistant
 #import some python libraries:
 
-#speech_recognition : to recognize your voice
+#speech_recognition : to recognize your voice 
 #openai : To integrate openai api (Important for integrating chat gpt) 
 
 #win32com.client : for audio output
