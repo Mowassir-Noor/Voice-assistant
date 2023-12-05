@@ -139,15 +139,7 @@ def delete_word():
     pag.hotkey("ctrl","backspace")
 
     
-#volume down up and mute  ---------------done
-#browser back forward refresh-------------done
-#browser search and then write using listener----------half done
-#clear button
-#decimal
-#esc enter space------------------------------done
-#sleep shutdown restart-----------------------done
-#select all and select word and select letters------------------half done
-#copy and paste---------------------------------done
+
 
 
 
@@ -160,7 +152,7 @@ if __name__ == '__main__':
      
      print("listening...")
      query=takeCommand()
-     #query=input("Enter the prompt:")
+     
     
 
      
@@ -243,9 +235,9 @@ if __name__ == '__main__':
 
      elif "unmute".lower() in query.lower():
          pag.press("volumemute")
-    #  elif "pause".lower() or "play".lower() in query.lower():
-    #      pag.press("pause")
-    #      print("paused the video")
+     elif "pause".lower() or "play".lower() in query.lower():
+         pag.press("pause")
+         print("paused the video")
 
 
      
@@ -268,9 +260,9 @@ if __name__ == '__main__':
      elif "refresh".lower() in query.lower():
          pag.press("browserrefresh")
          
-    #  elif "new tab" or "newtab".lower() in query.lower():
-    #      pag.press("ctrl","t")
-    #      print("opening new tab")
+     elif "new tab" or "newtab".lower() in query.lower():
+         pag.press("ctrl","t")
+         print("opening new tab")
 
 
 #Adding special keyboard keys
@@ -286,9 +278,7 @@ if __name__ == '__main__':
          pag.press("capslock")
          
 
-    #  elif "backspace".lower() in query.lower():
-    #      print("backspacing a word")
-    #      pag.press("backspace")
+  
          
          #delete a word
      elif "delete" and "word".lower() in query.lower():
@@ -308,12 +298,6 @@ if __name__ == '__main__':
      elif "cut this".lower() in query.lower():
          pag.hotkey("ctrl","x")
 
-    #  elif "copy".lower() in query.lower():
-        #  pag.hotkey("ctrl","c")
-        # pag.keyDown("ctrl")
-        # pag.press("c")
-        # pag.keyUp("ctrl")
-        # print("copying")
 
      elif "paste".lower() in query.lower():
          pag.hotkey("ctrl","v")
@@ -397,27 +381,6 @@ if __name__ == '__main__':
 
      
 
-#-----------------------------------Typewriter (with some issue)-----------------------------------------------------------
-#  elif "start" and "typewriter".lower() in query.lower():
-    #      while True:
-    #          typer=input("Enter what you want to write: ")
-
-    #          time.sleep(5)
-    #          if typer.lower() !="exit typewriter".lower():
-    #                  if ("newline" or "new line").lower() in typer.lower():
-    #                    enter()
-                    
-    #                  elif "space".lower() in typer.lower():
-    #                    spacebar()
-
-    #                  elif "backspace" or "delete".lower() in typer.lower():
-    #                        delete_word()
-            
-    #                  pag.write(typer)
-                         
-                     
-    #          else:
-    #                break
 
 
 
