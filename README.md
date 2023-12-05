@@ -3,7 +3,7 @@ import some python libraries:
 
 **speech_recognition** : to recognize your voice 
 
-**openai **: To integrate openai api (Important for integrating chat gpt) 
+**Openai**: To integrate openai api (Important for integrating chat gpt) 
 
 **win32com.client** : for audio output
 
