@@ -194,7 +194,7 @@ if __name__ == '__main__':
      elif "reset chat".lower() in query.lower():
          chatstr=""
 
-     elif "jarvis".lower() in query.lower():
+     elif "gpt".lower() in query.lower():
          print("chatting...")
          chat(query)
 
@@ -202,8 +202,6 @@ if __name__ == '__main__':
          say("Bye sir , See you soon")
          exit()
     
-     elif "hello world".lower() in query.lower():
-         print(query.lower())
 
 
 #Navigation realted functions
